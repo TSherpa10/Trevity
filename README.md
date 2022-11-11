@@ -1,4 +1,5 @@
-# Trevity: A study web-app with trees!
+# Trevity
+A study web application, now with trees!
 
 ## Architecture
 
