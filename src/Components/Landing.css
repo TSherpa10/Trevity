@@ -2,18 +2,32 @@
     background-color: #FFEFD6;
 }
 
-.fullLanding {
+.landingTitle {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     border-style: solid;
-    border-width: 5px;
+    border-width: 8px;
     padding: 50px 70px 50px 70px;
-    font-size: 38px;
+    text-align: center;
 }
 
-.fullLanding:hover {
+.landingTitle h1 {
+    font-size: 60px;
+    color: black;
+}
+
+.landingTitle p {
+    font-size: 0.9rem;
+}
+
+.landingTitle:hover {
     opacity: 0;
     transition: 1s;
+}
+
+.landingNavBar {
+    height: 80px;
+    background-color: #80A142;
 }

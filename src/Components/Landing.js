@@ -4,8 +4,14 @@ import './Landing.css';
 
 function Landing() {
     return (
-        <div className='fullLanding'>
-            <h1>Trevity</h1>
+        <div className='landingFull1'>
+            <div className='landingNavBar'>
+
+            </div>
+            <div className='landingTitle'>
+                <h1 className='landingTitleText'>Trevity</h1>
+                <p>grow your tree!</p>
+            </div>
         </div>
     )
 }
