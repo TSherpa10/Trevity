@@ -37,3 +37,16 @@
     height: 100vh;
     transition: all 0.5s;
 }
+
+.navbar_list--active{
+    left: -10%;
+}
+
+.navbar_item{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0;
+    flex:1;
+}
