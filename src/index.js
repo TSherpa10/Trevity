@@ -3,11 +3,19 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import Landing from './Components/Landing';
+import NavBar from './Components/Navbar';
 import reportWebVitals from './reportWebVitals';
+
+const navbarLinks = [
+  {url: "#", title:"Home"},
+  {url: "#", title:"Music"},
+  {url: "#", title:"Timer"},
+];
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <NavBar navbarLinks={navbarLinks}></NavBar>
     <Landing />
   </React.StrictMode>
 );
